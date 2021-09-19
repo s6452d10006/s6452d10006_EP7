@@ -1,0 +1,24 @@
+h1{
+    color: green;
+}
+h2{
+    color: yellow;
+}
+
+/*Psudo Element Selector*/
+h2::first-letter {
+    color: red;
+}
+h4::after{
+    content: url(./img/pngwing.com.png);
+}
+/*Psudo Class Selector*/
+a:link{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    color: green;
+}
